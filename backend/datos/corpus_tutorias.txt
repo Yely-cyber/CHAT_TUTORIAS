@@ -1,0 +1,226 @@
+﻿### TUTORIAS
+
+Las tutorías son un servicio de orientación, acompañamiento y apoyo que brinda la Universidad a los estudiantes durante su formación académica y personal.
+
+Su finalidad es contribuir al desarrollo integral del estudiante, fortalecer su aprendizaje, orientar la toma de decisiones y ayudar a superar dificultades académicas, personales o profesionales.
+
+En la Escuela Profesional de Ingeniería Informática y de Sistemas existen tres tipos principales de tutoría: tutoría académica, tutoría personal y tutoría profesional.
+
+---
+
+### TUTORIA_ACADEMICA
+
+La tutoría académica es un proceso de acompañamiento, orientación y apoyo que busca mejorar el rendimiento académico de los estudiantes universitarios. Su finalidad es ayudar al estudiante a desarrollar hábitos de estudio adecuados, fortalecer sus capacidades de aprendizaje y superar dificultades que puedan afectar su desempeño.
+
+A través de la tutoría académica, el estudiante puede recibir orientación sobre organización del tiempo, preparación para exámenes, elaboración de trabajos académicos y uso de estrategias de aprendizaje. También permite identificar oportunamente situaciones de riesgo académico y proponer acciones de mejora.
+
+El tutor académico orienta al estudiante durante su formación universitaria, promoviendo la responsabilidad, la autonomía y el compromiso con su aprendizaje.
+
+---
+
+### TUTORIA_PERSONAL
+
+La tutoría personal está orientada al desarrollo integral del estudiante y busca brindar apoyo frente a situaciones personales que puedan influir en su vida académica.
+
+Entre los temas que pueden abordarse se encuentran la adaptación a la vida universitaria, problemas familiares, estrés, ansiedad, autoestima, relaciones interpersonales y dificultades emocionales.
+
+Cuando la situación requiere atención especializada, el tutor puede derivar al estudiante a los servicios correspondientes de Bienestar Universitario.
+
+---
+
+### TUTORIA_PROFESIONAL
+
+La tutoría profesional tiene como finalidad orientar al estudiante en la construcción de su proyecto profesional y laboral.
+
+Permite identificar fortalezas, habilidades e intereses relacionados con diferentes áreas de la Ingeniería Informática y de Sistemas, como desarrollo de software, inteligencia artificial, bases de datos, ciencia de datos, redes, ciberseguridad y gestión de proyectos tecnológicos.
+
+Asimismo, brinda orientación para la elaboración del currículum vitae, preparación para entrevistas de trabajo y búsqueda de prácticas preprofesionales.
+
+---
+### TIPOS_DE_TUTORIA
+
+Las modalidades de acompañamiento estudiantil son: tutoría académica, tutoría personal y tutoría profesional.
+
+La tutoría académica está orientada a mejorar el rendimiento académico del estudiante, fortalecer hábitos de estudio y apoyar la superación de dificultades en los cursos.
+
+La tutoría personal busca contribuir al bienestar integral del estudiante, brindando orientación frente a problemas personales, emocionales o de adaptación a la vida universitaria.
+
+La tutoría profesional ayuda al estudiante a planificar su futuro laboral, identificar áreas de especialización y desarrollar competencias para su inserción en el mercado de trabajo.
+
+Estas tres modalidades pueden desarrollarse simultáneamente, ya que responden a diferentes necesidades del estudiante.
+
+---
+
+### FUNCIONES_DEL_TUTOR
+
+El tutor tiene la responsabilidad de orientar, acompañar y apoyar a los estudiantes durante su formación universitaria.
+
+Entre sus funciones se encuentran identificar dificultades académicas, realizar seguimiento al desempeño estudiantil, recomendar estrategias de mejora, orientar sobre recursos institucionales y promover la participación en actividades académicas.
+
+También debe mantener una comunicación respetuosa y permanente con los estudiantes asignados.
+
+---
+
+### FUNCIONES_DEL_ESTUDIANTE
+
+El estudiante debe participar activamente en el proceso de tutoría, asistir a las reuniones programadas y cumplir los compromisos establecidos con su tutor.
+
+Asimismo, debe comunicar oportunamente las dificultades que puedan afectar su rendimiento académico y colaborar en la implementación de las estrategias de mejora propuestas.
+
+---
+
+### RIESGO_ACADEMICO
+
+Se considera que un estudiante se encuentra en riesgo académico cuando presenta dificultades que pueden afectar su permanencia o rendimiento dentro de la universidad.
+
+Algunas señales son el bajo rendimiento, la desaprobación reiterada de cursos, las inasistencias frecuentes y la falta de hábitos de estudio adecuados.
+
+La tutoría académica busca detectar estas situaciones oportunamente para brindar apoyo y orientación.
+
+---
+
+### MATRICULA_CONDICIONADA
+
+La matrícula condicionada es una situación académica especial que requiere seguimiento permanente por parte de la universidad.
+
+Los estudiantes que se encuentran en esta condición deben contar obligatoriamente con un tutor académico que realice el seguimiento de su desempeño y los apoye en la mejora de sus resultados académicos.
+
+El objetivo es favorecer su recuperación y permanencia en la universidad.
+
+---
+
+### CAMBIO_DE_TUTOR
+
+Un estudiante puede solicitar el cambio de tutor cuando existan razones justificadas que dificulten el adecuado desarrollo del proceso tutorial.
+
+La solicitud debe presentarse ante la instancia correspondiente siguiendo el procedimiento establecido por la Escuela Profesional o el Comité Tutorial.
+
+---
+
+### COMITE_TUTORIAL
+
+El Comité Tutorial es el órgano encargado de coordinar, supervisar y evaluar las actividades relacionadas con las tutorías académicas.
+
+Entre sus funciones se encuentran la asignación de tutores, el seguimiento de los estudiantes y la implementación de acciones de mejora dentro del sistema tutorial.
+
+---
+
+### BIENESTAR_UNIVERSITARIO
+
+Bienestar Universitario es el área encargada de promover el bienestar físico, psicológico y social de los estudiantes.
+
+Ofrece diversos servicios orientados a mejorar la calidad de vida de la comunidad universitaria y favorecer su desarrollo integral.
+
+---
+
+### ATENCION_PSICOLOGICA
+
+La atención psicológica brinda apoyo profesional a estudiantes que presentan dificultades emocionales, estrés, ansiedad, problemas de adaptación u otras situaciones que afectan su bienestar.
+
+Este servicio contribuye al fortalecimiento de la salud mental y al desarrollo personal de los estudiantes.
+
+---
+
+### TECNICAS_DE_ESTUDIO
+
+Las técnicas de estudio son estrategias que permiten mejorar la comprensión, organización y retención de la información.
+
+Entre las más utilizadas se encuentran:
+
+• Técnica Pomodoro: organiza el tiempo de estudio en intervalos de trabajo y descanso.
+
+• Método Cornell: facilita la toma de apuntes mediante una estructura organizada.
+
+• Mapas mentales: representan gráficamente conceptos e ideas para mejorar la comprensión.
+
+• Flashcards: utilizan tarjetas con preguntas y respuestas para fortalecer la memoria.
+
+• Mnemotecnia: emplea asociaciones mentales para recordar datos complejos.
+
+La elección de una técnica depende del estilo de aprendizaje y de los objetivos académicos de cada estudiante.
+---
+
+### TECNICA_POMODORO
+
+La técnica Pomodoro consiste en estudiar durante 25 minutos de manera concentrada y luego tomar un descanso de 5 minutos.
+
+Después de completar cuatro ciclos de estudio, se recomienda realizar una pausa más prolongada.
+
+Esta técnica ayuda a mejorar la concentración, reducir la fatiga mental y aumentar la productividad.
+
+Video recomendado:
+https://youtu.be/3D0-l2O5k8Y
+
+---
+
+### METODO_CORNELL
+
+El método Cornell es una técnica para organizar apuntes de manera eficiente.
+
+La hoja se divide en tres secciones: palabras clave, notas principales y resumen. Esto facilita la comprensión, organización y repaso de la información.
+
+Video recomendado:
+https://youtu.be/nrcGO_0l2JQ
+
+---
+
+### MAPAS_MENTALES
+
+Los mapas mentales son representaciones gráficas que permiten organizar ideas alrededor de un concepto principal.
+
+Facilitan la comprensión de temas complejos, mejoran la memoria y ayudan a establecer relaciones entre conceptos.
+
+Video recomendado:
+https://youtu.be/fkyKsL1oLsQ
+
+---
+
+### FLASHCARDS
+
+Las flashcards o tarjetas de estudio contienen preguntas en una cara y respuestas en la otra.
+
+Son especialmente útiles para memorizar conceptos, definiciones, fórmulas y vocabulario mediante repasos periódicos.
+
+Video recomendado:
+https://youtu.be/5VucXcIQXxo
+
+---
+
+### MNEMOTECNIA
+
+La mnemotecnia consiste en utilizar asociaciones mentales para facilitar la memorización de información.
+
+Puede emplear imágenes, acrónimos, historias o palabras clave para recordar conceptos de manera más sencilla.
+
+Video recomendado:
+https://youtu.be/04rqVgK5_tA
+
+---
+
+### GESTION_DEL_TIEMPO
+
+La gestión del tiempo permite organizar adecuadamente las actividades académicas y personales.
+
+Se recomienda elaborar horarios de estudio, establecer prioridades, evitar distracciones y distribuir las tareas en periodos manejables.
+
+Una adecuada gestión del tiempo contribuye a mejorar el rendimiento académico y reducir el estrés.
+
+---
+
+### HABITOS_DE_ESTUDIO
+
+Los hábitos de estudio son conductas que favorecen el aprendizaje constante y efectivo.
+
+Entre los más importantes se encuentran estudiar en un lugar adecuado, mantener horarios regulares, tomar apuntes, realizar repasos periódicos y evitar la procrastinación.
+
+Los buenos hábitos de estudio mejoran la comprensión y retención de la información.
+
+---
+
+### BASE_LEGAL
+
+Las tutorías académicas se desarrollan conforme a la normativa institucional y universitaria vigente.
+
+Su fundamento se encuentra en la Ley Universitaria N.° 30220, el Estatuto de la Universidad Nacional de San Antonio Abad del Cusco y el Reglamento de Tutoría Académica aprobado por la institución.
+
+Estas normas establecen los derechos, responsabilidades y procedimientos relacionados con el sistema de tutorías.

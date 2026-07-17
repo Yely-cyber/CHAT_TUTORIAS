@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Asistente de Tutorías</title>
+
+    <link
+        rel="stylesheet"
+        href="chatbot.css"
+    >
+</head>
+
+<body>
+
+    <section
+        id="ventana-chat"
+        class="ventana-chat visible"
+        aria-hidden="false"
+    >
+
+        <header class="chat-encabezado">
+
+            <div class="chat-identidad">
+
+                <div class="avatar">
+                    🎓
+                </div>
+
+                <div>
+
+                    <h3>
+                        Asistente de Tutorías
+                    </h3>
+
+                    <p>
+                        <span class="estado"></span>
+                        En línea
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button
+                id="cerrar-chat"
+                class="cerrar-chat"
+                aria-label="Cerrar"
+            >
+                &#215;
+            </button>
+
+        </header>
+
+
+        <div
+            id="chat-mensajes"
+            class="chat-mensajes"
+        >
+
+            <div class="fila-mensaje bot">
+
+                <div class="mini-avatar">
+                    🎓
+                </div>
+
+                <div class="mensaje mensaje-bot">
+                    <strong>¡Hola! 👋</strong><br><br>
+                    Soy el asistente virtual de tutorías.<br><br>
+
+                    Puedes preguntarme sobre:
+                    <ul>
+                        <li>Tutoría académica</li>
+                        <li>Funciones del tutor</li>
+                        <li>Riesgo académico</li>
+                        <li>Técnicas de estudio</li>
+                        <li>Bienestar universitario</li>
+                    </ul>
+
+                    ¿En qué puedo ayudarte hoy?
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="preguntas-rapidas">
+
+            <button class="pregunta-rapida"
+                    data-pregunta="¿Qué es la tutoría?">
+                ¿Qué es la tutoría?
+            </button>
+
+            <button class="pregunta-rapida"
+                    data-pregunta="¿Cuáles son los tipos de tutoría?">
+                Tipos de tutoría
+            </button>
+
+            <button class="pregunta-rapida"
+                    data-pregunta="¿Cómo puedo cambiar de tutor?">
+                Cambio de tutor
+            </button>
+
+        </div>
+
+
+        <form
+            id="formulario-chat"
+            class="chat-entrada"
+        >
+
+            <input
+                id="mensaje-usuario"
+                type="text"
+                placeholder="Escribe tu pregunta..."
+                autocomplete="off"
+                maxlength="500"
+            >
+
+            <button
+                id="boton-enviar"
+                type="submit"
+                aria-label="Enviar mensaje"
+            >
+                ➤
+            </button>
+
+        </form>
+
+    </section>
+
+    <script src="chat.js"></script>
+
+</body>
+
+</html>

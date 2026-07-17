@@ -1,0 +1,544 @@
+### PERFILES_DE_COMPETENCIA
+
+Los perfiles de competencia son conjuntos de conocimientos, habilidades, actitudes y valores que definen las características deseables en los diferentes actores del proceso formativo: el estudiante al ingresar, el egresado y el docente. Estos perfiles garantizan que la formación esté alineada con las necesidades de la sociedad y el mercado laboral, y son la base para el diseño curricular de la Escuela.
+
+---
+
+### PERFIL_DEL_INGRESANTE
+
+El ingresante a la Escuela Profesional de Ingeniería Informática y de Sistemas debe demostrar un conjunto de competencias genéricas que le permitan aprovechar al máximo su formación universitaria. Estas competencias se agrupan en cuatro áreas:
+
+Valores: Espíritu de servicio, tolerancia, solidaridad, responsabilidad social y ambiental, actuar con ética, moral y autodisciplina, y respeto por la diversidad y la multiculturalidad.
+
+Aprendizaje: Capacidad analítica, crítica y reflexiva; creatividad e inventiva para resolver problemas; habilidad para identificar problemas del contexto y plantear soluciones basadas en lógica y matemáticas; capacidad para buscar, procesar e interpretar información.
+
+Relaciones interpersonales y trabajo en equipo: Comunicación oral y escrita básica, uso de TIC's y capacidad para trabajar en equipo y liderar.
+
+Autonomía y desarrollo personal: Vocación por la carrera, conocimiento de la realidad regional y nacional, toma de decisiones lógica y oportuna, capacidad de gestionar proyectos y resiliencia.
+
+Estas características son evaluadas en el proceso de admisión y son el punto de partida para el desarrollo de las competencias profesionales durante la carrera.
+
+
+---
+
+### PERFIL_DEL_EGRESADO
+
+El egresado de la Escuela Profesional de Ingeniería Informática y de Sistemas, además de las competencias genéricas institucionales (valores, aprendizaje, relaciones interpersonales y autonomía), debe haber logrado competencias específicas en cuatro grandes áreas profesionales:
+
+Ciencias de la Computación: Formula algoritmos aplicando matemáticas y principios algorítmicos; comprende estructuras de datos y evalúa la complejidad de las soluciones; diseña modelos eficientes para procesamiento de datos, computación gráfica, inteligencia artificial, entre otros; desarrolla investigación científica y tecnológica en el campo algorítmico.
+
+Ingeniería en Computación: Diseña e implementa redes de computadoras aplicando estándares; administra infraestructura de redes con políticas de seguridad; diseña equipos basados en microprocesadores y microcontroladores; desarrolla aplicaciones de sistema para dispositivos embebidos.
+
+Ingeniería de Software: Construye software que satisface requerimientos funcionales y no funcionales; realiza mantenimiento de software existente; utiliza metodologías de desarrollo apropiadas; gestiona proyectos de software con estándares de calidad.
+
+Inteligencia Artificial: Aplica técnicas de IA para resolver problemas; extrae conocimiento de datos; procesa señales digitales; diseña sistemas robotizados y de visión artificial; trabaja con procesamiento de lenguaje natural y bioinformática.
+
+El egresado es un profesional competente, innovador y con responsabilidad social, listo para insertarse en el mercado laboral local, nacional e internacional.
+
+
+---
+
+### AREAS_CURRICULARES
+
+El plan de estudios de la Escuela Profesional de Ingeniería Informática y de Sistemas se organiza en cinco áreas curriculares principales, cada una con un peso específico y objetivos claros:
+
+Estudios Generales (15.98% del total de créditos).
+
+Estudios Específicos (59.36% del total de créditos).
+
+Estudios de Especialidad (15.98% del total de créditos).
+
+Actividades Extracurriculares (2.74% del total de créditos).
+
+Prácticas Preprofesionales (5.94% del total de créditos).
+
+Estas áreas permiten una formación integral que combina bases humanísticas, científicas, tecnológicas y prácticas, asegurando que el estudiante desarrolle todas las competencias necesarias para su futuro profesional.
+
+
+---
+
+### ESTUDIOS_GENERALES
+
+Los Estudios Generales están orientados a desarrollar integralmente al estudiante universitario, fortaleciendo su desarrollo personal, social y académico-profesional, así como una cultura investigadora inicial. Se cursan principalmente en los primeros ciclos y sientan las bases para toda la carrera.
+
+Estas asignaturas proporcionan herramientas fundamentales en comunicación, pensamiento lógico-matemático, uso de TIC's, formación ética y ciudadana, y habilidades interpersonales.
+Para saber a más detalle las asignaturas que componen los Estudios Generales, te paso el siguiente link:
+
+---
+
+### ESTUDIOS_ESPECIFICOS
+
+Los Estudios Específicos constituyen el núcleo disciplinar de la carrera, dotando al estudiante de la identidad profesional. Proporcionan conocimientos teóricos y prácticos fundamentales en las diversas áreas de la ingeniería informática y de sistemas. Se organizan en seis grandes áreas:
+
+Área Cursos Básicos: Matemáticas, física y estadística.
+
+Área de Ciencias de la Computación: Algoritmos, estructuras de datos, teoría de la computación, etc.
+
+Área de Investigación: Seminarios de investigación.
+
+Área de Gestión de las Tecnologías de la Información: Administración, planeamiento estratégico, proyectos.
+
+Área de Ingeniería Computacional: Electrónica, arquitectura de computadores, redes, sistemas operativos.
+
+Área de Ingeniería de Software: Análisis, diseño, bases de datos, metodologías de desarrollo.
+
+Cada área agrupa asignaturas que desarrollan competencias específicas y se distribuyen a lo largo de los 10 semestres.
+
+
+
+---
+
+### AREA_CURSOS_BASICOS
+
+Esta área proporciona los fundamentos matemáticos, físicos y estadísticos necesarios para comprender y modelar los fenómenos que se abordan en la ingeniería. 
+Las materias que se llevan son la base para asignaturas posteriores como inteligencia artificial, redes, sistemas embebidos y análisis de datos.
+
+Para saber a más detalle las asignaturas que componen el Área de Cursos Básicos, te paso el siguiente link:
+
+
+
+---
+
+### AREA_CIENCIAS_DE_LA_COMPUTACION
+
+Esta área se centra en los fundamentos algorítmicos y de programación, así como en la teoría de la computación. 
+Estas asignaturas desarrollan la capacidad de diseñar soluciones algorítmicas eficientes y comprender los límites de la computación.
+
+Para saber a más detalle las asignaturas que componen el Área de Ciencias de la Computación, te paso el siguiente link:
+
+---
+
+### AREA_INVESTIGACION
+
+Esta área busca iniciar al estudiante en la práctica investigativa, preparándolo para la elaboración de trabajos de investigación y tesis. 
+
+Son seminarios que se cursan en los últimos ciclos y son la antesala de la tesis de titulación.
+Para saber a más detalle las asignaturas que componen el Área de Investigación, te paso el siguiente link:
+
+
+---
+
+### AREA_GESTION_DE_TECNOLOGIAS_DE_LA_INFORMACION
+
+Esta área prepara al estudiante para administrar y gestionar los recursos tecnológicos en las organizaciones, entendiendo el entorno de negocios y la toma de decisiones.
+Las asignaturas que se deben llevar permiten al ingeniero no solo ser un técnico, sino también un gestor y líder en proyectos tecnológicos.
+
+Para saber a más detalle las asignaturas que componen el Área de Gestión de Tecnologias de la Información, te paso el siguiente link:
+
+---
+
+### AREA_INGENIERIA_COMPUTACIONAL
+
+Esta área se ocupa del hardware, las redes y los sistemas operativos, proporcionando al estudiante conocimientos sobre la infraestructura que soporta el software. 
+Esta área forma al estudiante en la comprensión y administración de la infraestructura tecnológica de las organizaciones.
+
+Para saber a más detalle las asignaturas que componen el Área de Ingeniería Computacional, te paso el siguiente link:
+
+---
+
+### AREA_INGENIERIA_DE_SOFTWARE
+
+Esta área se enfoca en el desarrollo sistemático de software de calidad, desde el análisis de requisitos hasta el mantenimiento. 
+Las asignaturas que se deben llevar capacitan al estudiante para gestionar todo el ciclo de vida del software con estándares de calidad y usando las metodologías más adecuadas.
+
+Para saber a más detalle las asignaturas que componen el Área de Ingeniería de Sotfware, te paso el siguiente link:
+
+
+---
+
+### AREA_INTELIGENCIA_ARTIFICIAL
+
+Esta área cubre las técnicas avanzadas de inteligencia artificial y sus aplicaciones en diversos dominios. 
+Esta área prepara al estudiante para enfrentar problemas complejos mediante técnicas de vanguardia en inteligencia artificial, con aplicaciones en salud, industria, servicios y más.
+
+Para saber a más detalle las asignaturas que componen el Área de Inteligencia Artificial, te paso el siguiente link:
+
+---
+
+### ESTUDIOS_DE_ESPECIALIDAD
+
+Los Estudios de Especialidad permiten al estudiante profundizar en áreas concretas de la profesión, eligiendo asignaturas electivas que refuercen su perfil según sus intereses y las demandas del mercado. Estas asignaturas se cursan a partir del séptimo semestre y se organizan en las mismas áreas que los Estudios Específicos, pero con un nivel de mayor profundidad. El estudiante debe completar un número determinado de créditos en estas áreas.
+
+
+---
+
+### ESPECIALIDAD_CIENCIAS_BASICAS
+
+Las asignaturas de especialidad en Ciencias Básicas son:
+
+Matemática Avanzada para Ingeniería (4 créditos): Variable compleja, series de Fourier, transformadas integrales, ecuaciones diferenciales parciales.
+
+Estadística Inferencial (4 créditos): Inferencia bayesiana, pruebas de hipótesis, modelos estadísticos avanzados.
+
+Estadística Aplicada (4 créditos): Muestreo, diseños experimentales, análisis de regresión, correlación.
+
+
+---
+
+### ESPECIALIDAD_CIENCIAS_DE_LA_COMPUTACION
+
+Las asignaturas de especialidad en Ciencias de la Computación son:
+
+Computación Cuántica (4 créditos): Mecánica cuántica, algoritmos cuánticos, corrección de errores.
+
+Computación Simbólica (4 créditos): Manipulación simbólica, sistemas de álgebra computacional.
+
+Análisis y Diseño de Algoritmos (4 créditos): Complejidad, algoritmos de grafos, transformada rápida de Fourier, problemas NP.
+
+Computación Gráfica I y II (4 créditos cada una): Modelado, renderizado, animación, visualización.
+
+Geometría Computacional (4 créditos): Algoritmos para problemas geométricos.
+
+Compiladores (4 créditos): Análisis léxico y sintáctico, generación de código.
+
+
+---
+
+### ESPECIALIDAD_GESTION_TI
+
+Las asignaturas de especialidad en Gestión de TI son:
+
+Emprendimiento e Innovación (3 créditos): Plan de negocio en TI, creatividad, oportunidades.
+
+Control y Auditoría de Sistemas (4 créditos): Auditoría de sistemas, control interno, estándares.
+
+
+---
+
+### ESPECIALIDAD_INGENIERIA_COMPUTADORAS
+
+Las asignaturas de especialidad en Ingeniería de Computadoras son:
+
+Lenguaje Ensamblador (3 créditos): Programación de bajo nivel, interfaz con hardware.
+
+Redes de Computadoras II (4 créditos): Protocolos de transporte, seguridad, redes multimedia.
+
+Tópicos Avanzados en Redes (4 créditos): Redes definidas por software, IoT, 5G.
+
+Sistemas Embebidos (4 créditos): Programación de microcontroladores, sistemas en tiempo real.
+
+Arquitecturas de Alto Rendimiento (4 créditos): Procesamiento paralelo, GPU, clusters.
+
+
+---
+
+### ESPECIALIDAD_INGENIERIA_SOFTWARE
+
+Las asignaturas de especialidad en Ingeniería de Software son:
+
+Desarrollo de Software II (4 créditos): Continuación de proyectos, integración continua, despliegue.
+
+Ingeniería de Software II (4 créditos): Métricas, calidad, gestión de configuraciones.
+
+Tópicos Avanzados en Ingeniería de Software (4 créditos): Arquitecturas emergentes, microservicios, metodologías ágiles avanzadas.
+
+Análisis de Datos Empresariales (3 créditos): BI, Data Warehousing, minería de datos.
+
+
+---
+
+### ESPECIALIDAD_INTELIGENCIA_ARTIFICIAL
+
+Las asignaturas de especialidad en Inteligencia Artificial son:
+
+Minería de Datos (4 créditos): Técnicas de extracción de conocimiento, patrones, clasificación.
+
+Robótica (4 créditos): Sistemas robóticos avanzados, navegación, manipulación.
+
+Procesamiento Digital de Señales (4 créditos): Filtros, análisis espectral, aplicaciones.
+
+Procesamiento del Lenguaje Natural (4 créditos): Modelos de lenguaje, análisis semántico, chatbots.
+
+Visión Computacional (4 créditos): Reconocimiento de objetos, seguimiento, realidad aumentada.
+
+Redes Neuronales Artificiales (4 créditos): Deep learning, redes convolucionales, recurrentes.
+
+Redes Bayesianas (4 créditos): Inferencia, aprendizaje, aplicaciones en diagnóstico.
+
+Búsqueda Heurística y Metaheurística (4 créditos): Optimización combinatoria, algoritmos bioinspirados.
+
+Deep Learning (4 créditos): Modelos profundos, frameworks, aplicaciones.
+
+Interacción Persona-Computador (4 créditos): Diseño centrado en el usuario, evaluación de usabilidad.
+
+Bioinformática (4 créditos): Análisis de secuencias, estructuras biomoleculares.
+
+Modelación y Simulación de Estructuras Biomoleculares (4 créditos): Simulación de proteínas, dinámica molecular.
+
+Estadística para Bioinformática y Diseño Experimental (4 créditos): Métodos estadísticos para datos biológicos.
+
+Análisis de Imágenes Biomédicas en 2D y 3D (4 créditos): Procesamiento de imágenes médicas, segmentación.
+
+Análisis de Datos de Expresión Génica (4 créditos): Microarreglos, análisis de clusters.
+
+Modelado y Simulación (4 créditos): Simulación de sistemas complejos.
+
+
+---
+
+### ACTIVIDADES_EXTRACURRICULARES
+
+Las actividades extracurriculares son complementos de la formación integral, en áreas culturales, deportivas y artísticas. El estudiante debe acumular 2 créditos en estas actividades, que se ofrecen como talleres. Las opciones son:
+
+Música (2 créditos): Acercamiento al lenguaje musical, práctica de instrumentos o canto.
+
+Coro (2 créditos): Técnica vocal, repertorio coral, presentaciones.
+
+Danza Moderna (2 créditos): Expresión corporal, técnicas de danza contemporánea.
+
+Quechua (2 créditos): Iniciación en la lengua y cultura quechua.
+
+Taller de Debate (2 créditos): Oratoria, argumentación, pensamiento crítico.
+
+Taller de Creatividad Musical (2 créditos): Composición, producción musical con software.
+
+Teatro (2 créditos): Actuación, expresión escénica, montaje de obras.
+
+Estas actividades enriquecen la formación humanística y fomentan habilidades sociales y creativas.
+
+
+---
+
+### PRACTICAS_PREPROFESIONALES
+
+Las Prácticas Preprofesionales son una experiencia laboral supervisada que permite al estudiante aplicar sus conocimientos en entornos reales, complementando su formación teórica. Son obligatorias para obtener el grado de bachiller.
+
+Requisitos:
+
+Haber aprobado al menos 200 créditos.
+
+Duración mínima de 510 horas (equivalente a 4 meses a tiempo parcial, máximo 6 horas diarias).
+
+Se pueden realizar en empresas públicas o privadas, con convenio o gestión personal.
+
+Procedimiento:
+
+El estudiante solicita una carta de presentación a la Escuela.
+
+La empresa acepta y emite una carta de aceptación.
+
+Se presenta un plan de actividades y se asigna un docente asesor.
+
+Al finalizar, se entrega un informe de prácticas y el empleador evalúa al estudiante.
+
+La calificación es aprobatoria con nota mínima de 14. El informe sigue una estructura definida (introducción, trabajo realizado, conclusiones, anexos) y se rige por normas APA.
+
+
+---
+
+### PLAN_DE_ESTUDIOS_SEMESTRALIZADO
+
+El plan de estudios consta de 10 semestres académicos, con una carga mínima de 21 créditos y máxima de 22 créditos por semestre.
+
+---
+
+
+### Primer Semestre (21 créditos):
+
+Redacción de Textos (4)
+
+Matemática I (4)
+
+Estrategias de Aprendizaje Autónomo (4)
+
+Filosofía y Ética (3)
+
+Sociedad y Cultura (3)
+
+Constitución Política y Derechos Humanos (3)
+---
+
+### Segundo Semestre (22 créditos):
+
+Fundamentos de Programación (4)
+
+Matemáticas Discretas I (4)
+
+Cálculo I (4) – Prerreq: Matemática I
+
+Física I (4)
+
+Tecnología de la Información y Comunicación (3) – Prerreq: 15 créditos
+
+Liderazgo y Habilidades Sociales (3)
+
+---
+### Tercer Semestre (22 créditos):
+
+Abstracción de Datos y Objetos (4) – Prerreq: Fundamentos de Programación
+
+Física Aplicada a la Informática (4) – Prerreq: Física I
+
+Cálculo II (4) – Prerreq: Cálculo I
+
+Álgebra Lineal Computacional (4) – Prerreq: Mat. Discretas I y Fund. Programación
+
+Probabilidades y Estadística (4) – Prerreq: Cálculo I
+
+Programación I (2) – Prerreq: Fundamentos de Programación
+
+---
+### Cuarto Semestre (22 créditos):
+
+Algoritmos y Estructura de Datos (4) – Prerreq: Abstracción de Datos
+
+Investigación Operativa (4) – Prerreq: Álgebra Lineal
+
+Matemática Discreta II (4) – Prerreq: Mat. Discretas I
+
+Electrónica y Diseño Digital (4) – Prerreq: Física Aplicada
+
+Administración de TI (3) – Prerreq: Probabilidad y Estadística
+
+Programación II (2) – Prerreq: Programación I
+
+Actividad Extracurricular I (1)
+---
+
+### Quinto Semestre (22 créditos):
+
+Modelos Probabilísticos (4) – Prerreq: Prob. y Estadística
+
+Teoría de la Computación (3) – Prerreq: Algoritmos y Estructuras
+
+Análisis y Diseño de Sistemas de Información (4) – Prerreq: Algoritmos y Abstracción
+
+Organización y Arquitectura del Computador (4) – Prerreq: Electrónica
+
+Ingeniería Económica (3) – Prerreq: Adm. de TI
+
+Ecuaciones Diferenciales (4) – Prerreq: Cálculo II
+---
+
+### Sexto Semestre (22 créditos):
+
+Algoritmos Paralelos y Distribuidos (4) – Prerreq: Algoritmos y Estructuras
+
+Metodología de Desarrollo de Software (4) – Prerreq: Análisis y Diseño
+
+Fundamentos de Bases de Datos (4) – Prerreq: Análisis y Diseño
+
+Sistemas Operativos (4) – Prerreq: Org. y Arq. del Computador
+
+Métodos Numéricos (3) – Prerreq: Ecuaciones Diferenciales
+
+Asignatura Electiva de Especialidad (3)
+---
+
+### Séptimo Semestre (22 créditos):
+
+Algoritmos Avanzados (4) – Prerreq: Algoritmos y Estructuras
+
+Inteligencia Artificial (4) – Prerreq: Algoritmos y Estructuras, Prob. y Estadística
+
+Desarrollo de Software I (4) – Prerreq: Metodología de Desarrollo
+
+Redes de Computadoras I (4) – Prerreq: Org. y Arq. del Computador
+
+Electiva de Especialidad (3)
+
+Electiva de Especialidad (3)
+
+Actividad Extracurricular II (1)
+---
+
+### Octavo Semestre (22 créditos):
+
+Seminario de Investigación I (4) – Prerreq: 150 créditos
+
+Ingeniería de Software I (4) – Prerreq: Desarrollo de Software I
+
+Redes de Computadoras II (4) – Prerreq: Redes I
+
+Electiva de Especialidad (3)
+
+Electiva de Especialidad (3)
+
+Electiva de Especialidad (3)
+---
+
+### Noveno Semestre (22 créditos):
+
+Seminario de Investigación II (4) – Prerreq: Seminario I
+
+Desarrollo de Software II (4) – Prerreq: Desarrollo de Software I
+
+Planeamiento y Dirección Estratégica de TI (3) – Prerreq: 140 créditos
+
+Formulación y Evaluación de Proyectos de TI (3) – Prerreq: Planeamiento
+
+Electiva de Especialidad (3)
+
+Electiva de Especialidad (3)
+---
+
+### Décimo Semestre (22 créditos):
+
+Prácticas Preprofesionales (9) – Prerreq: 200 créditos
+
+Electiva de Especialidad (3)
+
+Electiva de Especialidad (3)
+
+Electiva de Especialidad (3)
+
+Electiva de Especialidad (3)
+
+Total de créditos: 219
+
+
+---
+
+### ELECCION_DE_ELECTIVAS
+
+Las asignaturas electivas de especialidad se ofrecen en las áreas de Ciencias Básicas, Ciencias de la Computación, Gestión de TI, Ingeniería Computacional, Ingeniería de Software e Inteligencia Artificial. El estudiante puede elegir aquellas que mejor se ajusten a sus intereses profesionales, debiendo cumplir con los prerrequisitos establecidos. La oferta puede variar cada semestre según disponibilidad.
+
+
+---
+
+### DURACION_CARRERA
+
+La carrera tiene una duración de 10 semestres académicos, equivalentes a 5 años.
+
+---
+
+### EGRESO_CREDITOS
+
+Para egresar de la carrera, el estudiante debe completar un total de 219 créditos académicos.
+
+---
+
+### CREDITOS_TOTALES_CARRERA
+
+El plan de estudios de la carrera comprende un total de 219 créditos.
+
+---
+
+### REGIMEN_ESTUDIOS
+
+El régimen de estudios de la carrera es semestral.
+
+---
+
+### CREDITOS_MAXIMOS_SEMESTRE
+
+El número máximo de créditos que un estudiante puede matricular en un semestre es 22 créditos.
+
+---
+
+### CREDITOS_MINIMOS_SEMESTRE
+
+El número mínimo de créditos que un estudiante puede matricular en un semestre es 21 créditos.
+
+---
+
+### MATRICULA_CREDITOS
+
+La matrícula semestral permite registrar entre 21 y 22 créditos académicos.
+
+---
+
+### INFORMACION_GENERAL_CARRERA
+
+La carrera tiene una duración de 10 semestres académicos (5 años), un régimen de estudios semestral y un total de 219 créditos en su plan de estudios. Los estudiantes pueden matricular entre 21 y 22 créditos por semestre.
+
