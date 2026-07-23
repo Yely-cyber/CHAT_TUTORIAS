@@ -2,18 +2,23 @@ from flask import Flask, jsonify, render_template, request
 from pathlib import Path
 from chatbot import ChatbotTutorias
 from flask_cors import CORS
+from procesar_excel import procesar_excel_a_corpus
 
 
 app = Flask(__name__)
 BASE_DIR = Path(__file__).resolve().parent
 CORS(app)
 
+procesar_excel_a_corpus()  # Procesa el Excel y genera el corpus antes de iniciar el chatbot
+
 try:
     chatbot = ChatbotTutorias(
     rutas_corpus={
         "Tutorías": BASE_DIR / "datos" / "corpus_tutorias.txt",
+        "Tutorias Excel": BASE_DIR / "datos" / "corpus_excel.txt",
         "Malla curricular": BASE_DIR / "datos" / "corpus_malla.txt",
         "Acreditación ICACIT": BASE_DIR / "datos" / "corpus_icacit.txt"
+        
     }
 )
 

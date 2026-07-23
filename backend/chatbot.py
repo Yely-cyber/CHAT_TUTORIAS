@@ -19,6 +19,9 @@ class ChatbotTutorias:
             for categoria, ruta in rutas_corpus.items()
         }
 
+        # Estado conversacional para recordar si le pedimos sus datos al usuario
+        self.esperando_datos_tutoria = False
+
         self.saludos = [
             "¡Hola! ¿En qué puedo ayudarte?",
             "¡Buenas! Puedes preguntarme sobre tutorías, malla curricular o ICACIT.",
@@ -99,12 +102,6 @@ class ChatbotTutorias:
         return texto.strip()
 
     def _separar_bloques(self, texto: str) -> list:
-        """
-        Si el corpus contiene títulos con ###,
-        conserva cada bloque temático completo.
-        Si no contiene títulos, divide el texto en fragmentos.
-        """
-
         texto = texto.replace("\r", "").strip()
 
         bloques_por_titulo = re.split(
@@ -151,10 +148,6 @@ class ChatbotTutorias:
         return fragmentos
 
     def _limpiar_respuesta(self, texto: str) -> str:
-        """
-        Elimina títulos técnicos, separadores y formato innecesario.
-        """
-
         lineas = texto.splitlines()
         lineas_limpias = []
 
@@ -184,10 +177,6 @@ class ChatbotTutorias:
         return respuesta
 
     def _preparar_chatbot(self) -> None:
-        """
-        Lee todos los corpus y crea una matriz TF-IDF.
-        """
-
         for categoria, ruta in self.rutas_corpus.items():
             texto = self._leer_archivo(ruta)
             bloques = self._separar_bloques(texto)
@@ -226,38 +215,45 @@ class ChatbotTutorias:
 
     def _es_saludo(self, texto: str) -> bool:
         saludos = [
-            "hola",
-            "buenas",
-            "buenos dias",
-            "buenas tardes",
-            "buenas noches",
-            "hey",
-            "saludos"
+            "hola", "buenas", "buenos dias", "buenas tardes",
+            "buenas noches", "hey", "saludos"
         ]
-
         return self._normalizar(texto) in saludos
 
     def _es_despedida(self, texto: str) -> bool:
         despedidas = [
-            "adios",
-            "chau",
-            "hasta luego",
-            "nos vemos",
-            "salir"
+            "adios", "chau", "hasta luego", "nos vemos", "salir"
         ]
-
         return self._normalizar(texto) in despedidas
 
     def _es_agradecimiento(self, texto: str) -> bool:
         agradecimientos = [
-            "gracias",
-            "muchas gracias",
-            "te agradezco",
-            "gracias por ayudarme"
+            "gracias", "muchas gracias", "te agradezco", "gracias por ayudarme"
         ]
-
         return self._normalizar(texto) in agradecimientos
 
+    # -------------------------------------------------------------
+    # NUEVOS MÉTODOS AUXILIARES
+    # -------------------------------------------------------------
+    def _extraer_codigo(self, texto: str) -> str:
+        """Busca un código universitario numérico de 6 dígitos."""
+        match = re.search(r'\b\d{6}\b', texto)
+        return match.group(0) if match else None
+
+    def _extraer_nombre_consulta(self, texto: str) -> str:
+        """Limpia frases conversacionales para quedarse solo con el nombre."""
+        texto_norm = self._normalizar(texto)
+        palabras_ruido = [
+            "podrias", "decirme", "quien", "es", "mi", "tutor", "tutora",
+            "del", "alumno", "estudiante", "me", "llamo", "soy", "nombre",
+            "codigo", "unsaac", "saber", "buscar", "asignado", "cual"
+        ]
+        palabras = [p for p in texto_norm.split() if p not in palabras_ruido]
+        return " ".join(palabras)
+
+    # -------------------------------------------------------------
+    # MÉTODO RESPONDER ACTUALIZADO
+    # -------------------------------------------------------------
     def responder(self, pregunta: str) -> dict:
         pregunta = pregunta.strip()
 
@@ -294,69 +290,50 @@ class ChatbotTutorias:
 
         pregunta_normalizada = self._normalizar(pregunta)
 
+        # 1. DETECCIÓN DE PREGUNTA GENÉRICA SOBRE TUTOR (Sin Código ni Nombre)
+        intenciones_tutor = [
+            "quien es mi tutor", "quien es mi tutora", "quien sera mi tutor",
+            "podrias decirme quien es mi tutor", "quiero saber mi tutor",
+            "dime mi tutor", "quien me toco de tutor"
+        ]
+
+        codigo = self._extraer_codigo(pregunta)
+
+        # Si pregunta de forma general y no incluyó un código de 6 dígitos
+        if (pregunta_normalizada in intenciones_tutor or "quien es mi tutor" in pregunta_normalizada) and not codigo:
+            self.esperando_datos_tutoria = True
+            return {
+                "respuesta": "¡Claro que sí! Para poder ayudarte, por favor dime tu código universitario de 6 dígitos o tu nombre completo.",
+                "similitud": 1.0,
+                "categoria": "Tutorías"
+            }
+
+        # 2. PREPARACIÓN DE LA CONSULTA
+        consulta_final = pregunta
+
+        # Si el bot estaba esperando los datos del usuario o detectamos un código
+        if self.esperando_datos_tutoria or codigo:
+            self.esperando_datos_tutoria = False  # Reseteamos bandera
+            
+            if codigo:
+                # Búsqueda exacta por código
+                consulta_final = f"110071" if False else f"{codigo}"
+            else:
+                # Limpiamos frases como "mi nombre es Ciro" -> se convierte en "ciro"
+                consulta_final = self._extraer_nombre_consulta(pregunta)
+
+        # Respuestas directas
         respuestas_directas = {
-            "malla curricular": (
-                "La malla curricular de Ingeniería Informática y de Sistemas "
-                "está organizada en 10 semestres académicos y comprende "
-                "un total de 219 créditos. Incluye estudios generales, "
-                "estudios específicos, estudios de especialidad, actividades "
-                "extracurriculares y prácticas preprofesionales."
-            ),
-
-            "que es la malla curricular": (
-                "La malla curricular organiza las asignaturas de la carrera "
-                "en 10 semestres académicos. La carrera tiene un total de "
-                "219 créditos e incluye cursos generales, específicos, "
-                "electivos, actividades extracurriculares y prácticas "
-                "preprofesionales."
-            ),
-
-            "icacit": (
-                "ICACIT es una entidad de acreditación que evalúa si un "
-                "programa académico cumple estándares internacionales de "
-                "calidad educativa y mantiene procesos de mejora continua."
-            ),
-
-            "que es icacit": (
-                "ICACIT es una entidad de acreditación que evalúa si un "
-                "programa académico cumple estándares internacionales de "
-                "calidad educativa y mantiene procesos de mejora continua."
-            ),
-
-            "tutorias": (
-                "Las tutorías son un servicio de orientación y acompañamiento "
-                "para los estudiantes durante su formación universitaria. "
-                "Pueden ser académicas, personales o profesionales."
-            ),
-
-            "tutoria": (
-                "Las tutorías son un servicio de orientación y acompañamiento "
-                "para los estudiantes durante su formación universitaria. "
-                "Pueden ser académicas, personales o profesionales."
-            ),
-            "que es una tutoria": (
-                "Las tutorías son un servicio de orientación y acompañamiento "
-                "para los estudiantes durante su formación universitaria. "
-                "Pueden ser académicas, personales o profesionales."
-            ),
-
-            "que son las tutorias": (
-                "Las tutorías son un servicio de orientación y acompañamiento "
-                "para los estudiantes durante su formación universitaria. "
-                "Pueden ser académicas, personales o profesionales."
-            ),
-            "para que sirve una tutoria": (
-                "Las tutorías son un servicio de orientación y acompañamiento "
-                "para los estudiantes durante su formación universitaria. "
-                "Pueden ser académicas, personales o profesionales."
-            ),
-
-            "que es la tutoria": (
-                "Las tutorías son un servicio de orientación y acompañamiento "
-                "para los estudiantes durante su formación universitaria. "
-                "Pueden ser académicas, personales o profesionales."
-            )
-
+            "malla curricular": "La malla curricular de Ingeniería Informática y de Sistemas está organizada en 10 semestres académicos y comprende un total de 219 créditos...",
+            "que es la malla curricular": "La malla curricular organiza las asignaturas de la carrera en 10 semestres académicos...",
+            "icacit": "ICACIT es una entidad de acreditación que evalúa si un programa académico cumple estándares internacionales de calidad educativa...",
+            "que es icacit": "ICACIT es una entidad de acreditación que evalúa si un programa académico cumple estándares internacionales de calidad educativa...",
+            "tutorias": "Las tutorías son un servicio de orientación y acompañamiento para los estudiantes...",
+            "tutoria": "Las tutorías son un servicio de orientación y acompañamiento para los estudiantes...",
+            "que es una tutoria": "Las tutorías son un servicio de orientación y acompañamiento para los estudiantes...",
+            "que son las tutorias": "Las tutorías son un servicio de orientación y acompañamiento para los estudiantes...",
+            "para que sirve una tutoria": "Las tutorías son un servicio de orientación y acompañamiento para los estudiantes...",
+            "que es la tutoria": "Las tutorías son un servicio de orientación y acompañamiento para los estudiantes..."
         }
 
         if pregunta_normalizada in respuestas_directas:
@@ -366,9 +343,8 @@ class ChatbotTutorias:
                 "categoria": "respuesta directa"
             }
 
-        vector_pregunta = self.vectorizador.transform(
-            [pregunta]
-        )
+        # 3. BÚSQUEDA VECTORIAL TF-IDF CON LA CONSULTA OPTIMIZADA
+        vector_pregunta = self.vectorizador.transform([consulta_final])
 
         similitudes = cosine_similarity(
             vector_pregunta,
@@ -376,9 +352,7 @@ class ChatbotTutorias:
         ).flatten()
 
         mejor_indice = similitudes.argmax()
-        mejor_similitud = float(
-            similitudes[mejor_indice]
-        )
+        mejor_similitud = float(similitudes[mejor_indice])
 
         umbral_minimo = 0.10
 
@@ -386,7 +360,8 @@ class ChatbotTutorias:
             return {
                 "respuesta": (
                     "No encontré información suficientemente relacionada "
-                    "con tu consulta. Intenta formularla con otras palabras."
+                    "con tu consulta. Intenta ingresar solo tu código (6 dígitos) "
+                    "o tus nombres completos."
                 ),
                 "similitud": round(mejor_similitud, 4),
                 "categoria": "sin coincidencia"
